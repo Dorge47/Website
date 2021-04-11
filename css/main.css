@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+a.cygwin:hover {
+    color: gold;
+    transition-duration: .5s;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a.cygwin:visited:hover {
+    color: gold;
+    transition-duration: .5s;
+}
+
+article.story {
+    font-size: 18px;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-indent: 50px;
+    width: 100%;
+}
+
+article.story p {
+    margin-bottom: 15px;
+}
+
+body {
+    align-items: center;
+    background-color: #182533;
+    color: seashell;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0.5625%;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+div.btncontainer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
+    width: 100%;
+}
+
+div.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.homebutton {
+    display: table;
+    background-color: #2b5378;
+    height: 40%;
+    transition-duration: 0.5s;
+    width: 40%;
+}
+
+div.homebutton:hover {
+    background-color: #58a1d9;
+    height: 45%;
+    transition-duration: 0.5s;
+    width: 45%;
+}
+
+div.homebutton a {
+    display: table-cell;
+    font-size: 56px;/*I know it's a weird number but it makes the text stick to
+    the button as it resizes so bite me*/
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    vertical-align: middle;
+    width: 100%;
+}
+
+div.homebutton a:hover {
+    font-size: 63px;
+    transition-duration: 0.5s;
+}
+
+em.story {
+    font-size: 31px;
+}
+
+footer {
+    border-top: 1px solid #313c49;
+    color: GhostWhite;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+}
+
+footer div {
+    height: 100%;
+    width: 30%;
+}
+
+footer div {
+    display: table;
+}
+
+footer div p {
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+h2.cygwin {
+    text-align: center;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+main a {
+    height: auto;
+    max-width: 100%;
+}
+
+main img {
+    height: auto;
+    max-width: 100%;
+}
+
+main section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+main section p {
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+section.introduction p:nth-of-type(2) {
+    font-size: 15px;
+}
+
+section.telegram a {
+    max-width: 40%;
+}
+
+@media only screen and (max-width: 1366px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+    main section p {
+        font-size: 16px;
+    }
+    
+    div.btncontainer {
+        flex-direction: column;
+        height: 85%;
+    }
+    
+    div.homebutton {
+        height: 40%;
+        width: 90%;
+    }
+    
+    div.homebutton:hover {
+        height: 40%;
+        width: 90%;
+    }
+    
+    div.homebutton a {
+        font-size: 32px;
+    }
+    
+    div.homebutton a:hover {
+        font-size: 36px;
+    }
+}
