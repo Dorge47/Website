@@ -12,7 +12,7 @@
     <title>Welcome</title>
 </head>
 
-<body onload="maintenanceWarn()">
+<body>
     <!--
 Copyright (c) 2021 Christopher Andrade
 
