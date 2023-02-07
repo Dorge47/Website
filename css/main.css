@@ -131,6 +131,10 @@ h2.cygwin {
     text-align: center;
 }
 
+iframe.contactform {
+    background-color: white;
+}
+
 main {
     align-items: center;
     display: flex;
