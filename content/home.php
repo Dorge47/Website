@@ -1,8 +1,8 @@
 <div class="btncontainer">
-    <div class="homebutton">
+    <div class="homebuttons">
         <a href="?page=personal">Personal</a>
     </div>
-    <div class="homebutton">
+    <div class="homebuttons">
         <a href="?page=professional">Professional</a>
     </div>
 </div>

@@ -63,7 +63,7 @@ div.center {
     align-items: center;
 }
 
-div.homebutton {
+div.homebuttons {
     display: table;
     background-color: #2b5378;
     height: 40%;
@@ -71,14 +71,14 @@ div.homebutton {
     width: 40%;
 }
 
-div.homebutton:hover {
+div.homebuttons:hover {
     background-color: #58a1d9;
     height: 45%;
     transition-duration: 0.5s;
     width: 45%;
 }
 
-div.homebutton a {
+div.homebuttons a {
     display: table-cell;
     font-size: 56px;/*I know it's a weird number but it makes the text stick to
     the button as it resizes so bite me*/
@@ -90,7 +90,7 @@ div.homebutton a {
     width: 100%;
 }
 
-div.homebutton a:hover {
+div.homebuttons a:hover {
     font-size: 63px;
     transition-duration: 0.5s;
 }
@@ -192,21 +192,21 @@ section.telegram a {
         height: 85%;
     }
     
-    div.homebutton {
+    div.homebuttons {
         height: 40%;
         width: 90%;
     }
     
-    div.homebutton:hover {
+    div.homebuttons:hover {
         height: 40%;
         width: 90%;
     }
     
-    div.homebutton a {
+    div.homebuttons a {
         font-size: 32px;
     }
     
-    div.homebutton a:hover {
+    div.homebuttons a:hover {
         font-size: 36px;
     }
 }
