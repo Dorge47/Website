@@ -1,5 +1,7 @@
 function maintenanceRedirect() {
-    window.location.replace("?page=maintenance");
+    if (window.location.search != "?page=maintenance") {//no infinite loop plz
+        window.location.replace("?page=maintenance");
+    }
 }
 
 function httpsRedirect() {

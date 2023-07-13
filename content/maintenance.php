@@ -1,6 +1,6 @@
-<p>Currently under construction. Come back soon!</p>
+<p>Website's borked, I'll probably fix it</p>
 <br>
-<p>-Chris Andrade</p>
+<p>-Chris</p>
 </body>
 
 </html>
