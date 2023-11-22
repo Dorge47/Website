@@ -1,5 +1,5 @@
 function maintenanceRedirect() {
-    if (window.location.host == "cartwebapp.net") {//CART website redirect
+    if (window.location.host == "mc.cartwebapp.net") {//CART website redirect
         window.location.replace("?page=minecraft");
     }
     if (window.location.search != "?page=maintenance") {//no infinite loop plz
