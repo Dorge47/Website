@@ -2,7 +2,7 @@ function maintenanceRedirect() {
     if (window.location.host == "mc.cartwebapp.net") {//CART website redirect
         window.location.replace("?page=minecraft");
     }
-    if (window.location.search != "?page=maintenance" && window.location.search != "?page=minecraft") {//no infinite loop plz
+    if (window.location.search != "?page=maintenance" || window.location.search != "?page=minecraft") {//no infinite loop plz
         window.location.replace("?page=maintenance");
     }
 }
