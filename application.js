@@ -5,7 +5,10 @@ function maintenanceRedirect() {
 }
 
 function httpsRedirect() {
-    if (location.protocol !== 'https:' && !location.href.includes("127.0.0.1")) {
+    if (window.location.host == "cartwebapp.net") {//CART website redirect
+        window.location.replace("https://cart.org/labs/web-application-development-rop/");
+    }
+    else if (location.protocol !== 'https:' && !location.href.includes("127.0.0.1")) {
         location.replace(`https:${location.href.substring(location.protocol.length)}`);
     }
 }
