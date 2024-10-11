@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
