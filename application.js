@@ -12,7 +12,7 @@ function httpsRedirect() {
         window.location.replace("https://cart.org/labs/web-application-development-rop/");
     }
     else if (window.location.host == "fantomethief.net") {//Fantomethief redirect
-        window.location.replace("https://https://twitter.com/0rcazone");
+        window.location.replace("https://twitter.com/0rcazone");
     }
     else if (window.location.host == "mc.cartwebapp.net" && window.location.search != "?page=minecraft") {
         window.location.replace("?page=minecraft");
