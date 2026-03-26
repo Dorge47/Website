@@ -16,7 +16,7 @@
 
 <body>
     <!--
-Copyright (c) 2021 Christopher Andrade
+Copyright (c) <?php echo date ("Y"); ?> Christopher Andrade
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
